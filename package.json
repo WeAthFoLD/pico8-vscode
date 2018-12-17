@@ -24,24 +24,33 @@
     ],
     "main": "./out/src/extension",
     "contributes": {
-        "languages": [{
-            "id": "pico8",
-            "extensions": [
-                ".p8"
-            ],
-            "configuration": "./syntaxes/language-configuration.json"
-        }],
-        "grammars": [{
-			"language": "pico8",
-			"scopeName": "source.p8",
-			"path": "./syntaxes/pico8.json"
-		}],
-        "commands": [{
-            "command": "pico8.run",
-            "title": "Run a pico8 file"
-        }],
+        "languages": [
+            {
+                "id": "pico8",
+                "extensions": [
+                    ".p8"
+                ],
+                "configuration": "./syntaxes/language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "pico8",
+                "scopeName": "source.p8",
+                "path": "./syntaxes/pico8.json"
+            }
+        ],
+        "commands": [
+            {
+                "command": "pico8.run",
+                "title": "Run a pico8 file"
+            }
+        ],
         "keybindings": [
-            { "key": "cmd+r", "command": "pico8.run" }
+            {
+                "key": "alt+f9",
+                "command": "pico8.run"
+            }
         ],
         "configuration": {
             "type": "object",
@@ -51,6 +60,11 @@
                     "type": "string",
                     "default": "/Applications/PICO-8.app/Contents/MacOS/pico8",
                     "description": "Path to the pico8 cli (ie /Applications/PICO-8.app/Contents/MacOS/pico8 on MacOS, or C:\\WHO_KNOWS\\PICO8.EXE on windows)"
+                },
+                "pico8.workspacePath": {
+                    "type": "string",
+                    "default": "",
+                    "description": "Path to pico8 workspace (Use default if not specified)"
                 }
             }
         }

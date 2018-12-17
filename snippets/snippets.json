@@ -1,0 +1,544 @@
+{
+    "update": {
+        "prefix": "_update",
+        "body": [
+            "function _update()",
+            "$0",
+            "end"
+        ]
+    },
+    "update60": {
+        "prefix": "_update60",
+        "body": [
+            "function _update60()",
+            "$0",
+            "end"
+        ]
+    },
+    "init": {
+        "prefix": "_init",
+        "body": [
+            "function _init()",
+            "$0",
+            "end"
+        ]
+    },
+    "draw": {
+        "prefix": "_draw",
+        "body": [
+            "function _draw()",
+            "$0",
+            "end"
+        ]
+    },
+    "flip": {
+        "prefix": "flip",
+        "body": [
+            "flip($0)"
+        ]
+    },
+    "camera": {
+        "prefix": "camera",
+        "body": [
+            "camera($0)"
+        ]
+    },
+    "circ": {
+        "prefix": "circ",
+        "body": [
+            "circ($0)"
+        ]
+    },
+    "circfill": {
+        "prefix": "circfill",
+        "body": [
+            "circfill($0)"
+        ]
+    },
+    "clip": {
+        "prefix": "clip",
+        "body": [
+            "clip($0)"
+        ]
+    },
+    "cls": {
+        "prefix": "cls",
+        "body": [
+            "cls($0)"
+        ]
+    },
+    "color": {
+        "prefix": "color",
+        "body": [
+            "color($0)"
+        ]
+    },
+    "cursor": {
+        "prefix": "cursor",
+        "body": [
+            "cursor($0)"
+        ]
+    },
+    "fget": {
+        "prefix": "fget",
+        "body": [
+            "fget($0)"
+        ]
+    },
+    "fset": {
+        "prefix": "fset",
+        "body": [
+            "fset($0)"
+        ]
+    },
+    "line": {
+        "prefix": "line",
+        "body": [
+            "line($0)"
+        ]
+    },
+    "pal": {
+        "prefix": "pal",
+        "body": [
+            "pal($0)"
+        ]
+    },
+    "palt": {
+        "prefix": "palt",
+        "body": [
+            "palt($0)"
+        ]
+    },
+    "pget": {
+        "prefix": "pget",
+        "body": [
+            "pget($0)"
+        ]
+    },
+    "print": {
+        "prefix": "print",
+        "body": [
+            "print($0)"
+        ]
+    },
+    "pset": {
+        "prefix": "pset",
+        "body": [
+            "pset($0)"
+        ]
+    },
+    "rect": {
+        "prefix": "rect",
+        "body": [
+            "rect($0)"
+        ]
+    },
+    "rectfill": {
+        "prefix": "rectfill",
+        "body": [
+            "rectfill($0)"
+        ]
+    },
+    "sget": {
+        "prefix": "sget",
+        "body": [
+            "sget($0)"
+        ]
+    },
+    "spr": {
+        "prefix": "spr",
+        "body": [
+            "spr($0)"
+        ]
+    },
+    "sset": {
+        "prefix": "sset",
+        "body": [
+            "sset($0)"
+        ]
+    },
+    "sspr": {
+        "prefix": "sspr",
+        "body": [
+            "sspr($0)"
+        ]
+    },
+    "add": {
+        "prefix": "add",
+        "body": [
+            "add($0)"
+        ]
+    },
+    "all": {
+        "prefix": "all",
+        "body": [
+            "all($0)"
+        ]
+    },
+    "del": {
+        "prefix": "del",
+        "body": [
+            "del($0)"
+        ]
+    },
+    "foreach": {
+        "prefix": "foreach",
+        "body": [
+            "foreach($0)"
+        ]
+    },
+    "pairs": {
+        "prefix": "pairs",
+        "body": [
+            "pairs($0)"
+        ]
+    },
+    "btn": {
+        "prefix": "btn",
+        "body": [
+            "btn($0)"
+        ]
+    },
+    "btnp": {
+        "prefix": "btnp",
+        "body": [
+            "btnp($0)"
+        ]
+    },
+    "music": {
+        "prefix": "music",
+        "body": [
+            "music($0)"
+        ]
+    },
+    "sfx": {
+        "prefix": "sfx",
+        "body": [
+            "sfx($0)"
+        ]
+    },
+    "map": {
+        "prefix": "map",
+        "body": [
+            "map($0)"
+        ]
+    },
+    "mget": {
+        "prefix": "mget",
+        "body": [
+            "mget($0)"
+        ]
+    },
+    "mset": {
+        "prefix": "mset",
+        "body": [
+            "mset($0)"
+        ]
+    },
+    "cstore": {
+        "prefix": "cstore",
+        "body": [
+            "cstore($0)"
+        ]
+    },
+    "memcpy": {
+        "prefix": "memcpy",
+        "body": [
+            "memcpy($0)"
+        ]
+    },
+    "memset": {
+        "prefix": "memset",
+        "body": [
+            "memset($0)"
+        ]
+    },
+    "peek": {
+        "prefix": "peek",
+        "body": [
+            "peek($0)"
+        ]
+    },
+    "poke": {
+        "prefix": "poke",
+        "body": [
+            "poke($0)"
+        ]
+    },
+    "reload": {
+        "prefix": "reload",
+        "body": [
+            "reload($0)"
+        ]
+    },
+    "abs": {
+        "prefix": "abs",
+        "body": [
+            "abs($0)"
+        ]
+    },
+    "atan2": {
+        "prefix": "atan2",
+        "body": [
+            "atan2($0)"
+        ]
+    },
+    "band": {
+        "prefix": "band",
+        "body": [
+            "band($0)"
+        ]
+    },
+    "bnot": {
+        "prefix": "bnot",
+        "body": [
+            "bnot($0)"
+        ]
+    },
+    "bor": {
+        "prefix": "bor",
+        "body": [
+            "bor($0)"
+        ]
+    },
+    "bxor": {
+        "prefix": "bxor",
+        "body": [
+            "bxor($0)"
+        ]
+    },
+    "cos": {
+        "prefix": "cos",
+        "body": [
+            "cos($0)"
+        ]
+    },
+    "flr": {
+        "prefix": "flr",
+        "body": [
+            "flr($0)"
+        ]
+    },
+    "max": {
+        "prefix": "max",
+        "body": [
+            "max($0)"
+        ]
+    },
+    "mid": {
+        "prefix": "mid",
+        "body": [
+            "mid($0)"
+        ]
+    },
+    "min": {
+        "prefix": "min",
+        "body": [
+            "min($0)"
+        ]
+    },
+    "rnd": {
+        "prefix": "rnd",
+        "body": [
+            "rnd($0)"
+        ]
+    },
+    "shl": {
+        "prefix": "shl",
+        "body": [
+            "shl($0)"
+        ]
+    },
+    "shr": {
+        "prefix": "shr",
+        "body": [
+            "shr($0)"
+        ]
+    },
+    "sin": {
+        "prefix": "sin",
+        "body": [
+            "sin($0)"
+        ]
+    },
+    "sqrt": {
+        "prefix": "sqrt",
+        "body": [
+            "sqrt($0)"
+        ]
+    },
+    "srand": {
+        "prefix": "srand",
+        "body": [
+            "srand($0)"
+        ]
+    },
+    "cartdata": {
+        "prefix": "cartdata",
+        "body": [
+            "cartdata($0)"
+        ]
+    },
+    "dget": {
+        "prefix": "dget",
+        "body": [
+            "dget($0)"
+        ]
+    },
+    "dset": {
+        "prefix": "dset",
+        "body": [
+            "dset($0)"
+        ]
+    },
+    "cocreate": {
+        "prefix": "cocreate",
+        "body": [
+            "cocreate($0)"
+        ]
+    },
+    "coresume": {
+        "prefix": "coresume",
+        "body": [
+            "coresume($0)"
+        ]
+    },
+    "costatus": {
+        "prefix": "costatus",
+        "body": [
+            "costatus($0)"
+        ]
+    },
+    "yield": {
+        "prefix": "yield",
+        "body": [
+            "yield($0)"
+        ]
+    },
+    "setmetatable": {
+        "prefix": "setmetatable",
+        "body": [
+            "setmetatable($0)"
+        ]
+    },
+    "getmetatable": {
+        "prefix": "getmetatable",
+        "body": [
+            "getmetatable($0)"
+        ]
+    },
+    "type": {
+        "prefix": "type",
+        "body": [
+            "type($0)"
+        ]
+    },
+    "sub": {
+        "prefix": "sub",
+        "body": [
+            "sub($0)"
+        ]
+    },
+    "tonum": {
+        "prefix": "tonum",
+        "body": [
+            "tonum($0)"
+        ]
+    },
+    "tostr": {
+        "prefix": "tostr",
+        "body": [
+            "tostr($0)"
+        ]
+    },
+    "time": {
+        "prefix": "time",
+        "body": [
+            "time($0)"
+        ]
+    },
+    "menuitem": {
+        "prefix": "menuitem",
+        "body": [
+            "menuitem($0)"
+        ]
+    },
+    "extcmd": {
+        "prefix": "extcmd",
+        "body": [
+            "extcmd($0)"
+        ]
+    },
+    "assert": {
+        "prefix": "assert",
+        "body": [
+            "assert($0)"
+        ]
+    },
+    "printh": {
+        "prefix": "printh",
+        "body": [
+            "printh($0)"
+        ]
+    },
+    "stat": {
+        "prefix": "stat",
+        "body": [
+            "stat($0)"
+        ]
+    },
+    "function": {
+        "prefix": "function",
+        "body": [
+            "function"
+        ]
+    },
+    "local": {
+        "prefix": "local",
+        "body": [
+            "local"
+        ]
+    },
+    "begin": {
+        "prefix": "begin",
+        "body": [
+            "begin"
+        ]
+    },
+    "end": {
+        "prefix": "end",
+        "body": [
+            "end"
+        ]
+    },
+    "if": {
+        "prefix": "if",
+        "body": [
+            "if"
+        ]
+    },
+    "else": {
+        "prefix": "else",
+        "body": [
+            "else"
+        ]
+    },
+    "then": {
+        "prefix": "then",
+        "body": [
+            "then"
+        ]
+    },
+    "for": {
+        "prefix": "for",
+        "body": [
+            "for"
+        ]
+    },
+    "while": {
+        "prefix": "while",
+        "body": [
+            "while"
+        ]
+    }
+}
